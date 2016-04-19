@@ -33,25 +33,28 @@
     <content src="index.html" />
 
     <plugins>
-        <plugin name="Device" value="CDVDevice" />
-        <plugin name="Logger" value="CDVLogger" />
-        <plugin name="Compass" value="CDVLocation" />
-        <plugin name="Accelerometer" value="CDVAccelerometer" />
-        <plugin name="Camera" value="CDVCamera" />
-        <plugin name="NetworkStatus" value="CDVConnection" />
-        <plugin name="Contacts" value="CDVContacts" />
-        <plugin name="Debug Console" value="CDVDebugConsole" />
-        <plugin name="Echo" value="CDVEcho" />
-        <plugin name="File" value="CDVFile" />
-        <plugin name="FileTransfer" value="CDVFileTransfer" />
-        <plugin name="Geolocation" value="CDVLocation" />
-        <plugin name="Notification" value="CDVNotification" />
-        <plugin name="Media" value="CDVSound" />
-        <plugin name="Capture" value="CDVCapture" />
-        <plugin name="SplashScreen" value="CDVSplashScreen" />
-        <plugin name="Battery" value="CDVBattery" />
-        <plugin name="Globalization" value="CDVGlobalization" />
-        <plugin name="InAppBrowser" value="CDVInAppBrowser" />
+        <plugin name="cordova-plugin-battery-status" source="npm" />
+        <plugin name="cordova-plugin-camera"         source="npm" />
+        <plugin name="cordova-plugin-console"        source="npm" />
+        <plugin name="cordova-plugin-contacts"       source="npm" />
+        <plugin name="cordova-plugin-device"         source="npm" />
+        <plugin name="cordova-plugin-device-motion"  source="npm" />
+        <plugin name="cordova-plugin-device-orientation" source="npm" />
+        <plugin name="cordova-plugin-dialogs"        source="npm" />
+        <plugin name="cordova-plugin-file"           source="npm" />
+        <plugin name="cordova-plugin-file-transfer" source="npm" />
+        <plugin name="cordova-plugin-geolocation"    source="npm" />
+        <plugin name="cordova-plugin-globalization"  source="npm" />
+        <plugin name="cordova-plugin-inappbrowser"   source="npm" />
+        <plugin name="cordova-plugin-legacy-whitelist" source="npm" /> 
+        <plugin name="cordova-plugin-media"          source="npm" />
+        <plugin name="cordova-plugin-media-capture"  source="npm" />
+        <plugin name="cordova-plugin-network-information" source="npm" />
+        <plugin name="cordova-plugin-splashscreen"   source="npm" />
+        <plugin name="cordova-plugin-statusbar"      source="npm" />
+        <plugin name="cordova-plugin-test-framework" source="npm" />
+        <plugin name="cordova-plugin-vibration"      source="npm" />
+        <plugin name="cordova-plugin-whitelist"      source="npm" />
     </plugins>
 
     <access origin="*" />
